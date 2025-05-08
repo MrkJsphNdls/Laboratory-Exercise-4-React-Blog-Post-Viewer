@@ -1,0 +1,34 @@
+/* App.css */
+/* General styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 20px;
+}
+/* Loading and error messages */
+.loading {
+  font-size: 24px;
+  color: #007bff;
+  text-align: center;
+  margin: 20px 0;
+}
+.error {
+  font-size: 24px;
+  color: #dc3545;
+  text-align: center;
+  margin: 20px 0;
+}
+/* Blog post list styles */
+.blog-post {
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 15px;
+  margin: 10px 0;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.blog-post h2 {
+  margin: 0 0 10px;
+  font-size: 20px;
+}
